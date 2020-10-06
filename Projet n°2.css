@@ -2,6 +2,7 @@ body {
     color: #000000;
     font-family: eras ITC light, stencil std, sans-serif;
     background-color: #D9D9D9;
+    overflow-x: hidden;
 }
 
 
@@ -49,11 +50,10 @@ h3 {
 
 .h3blanc{
     font-family: stencil std, sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     opacity: 50%;
-    font-size: ;
     color:#FFFFFF;
     z-index: 10;
 }
@@ -75,7 +75,8 @@ p {
 
 .navbar {
     background-color: #c41919;
-    background: transparent;}
+    /* background: transparent; */
+}
 
 #nav-icon{
     
@@ -159,4 +160,12 @@ p {
     font-size: 25px;
     font-family: eras ITC, sans-serif;
     color: #FFFFFF;
+}
+
+.form{
+    background-image: url("bar.png");
+}
+
+.fondcarouselle{
+    background: url(hamburger.jpg);
 }
