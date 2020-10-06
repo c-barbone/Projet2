@@ -1,0 +1,156 @@
+body {
+    color: #000000;
+    font-family: eras ITC light, stencil std, sans-serif;
+    background-color: #D9D9D9;
+}
+
+
+h1 {
+    font-family: stencil std, sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+}
+
+@media screen and (max-width:500px) {
+    h1{
+        display: none;
+    }
+}
+h2 {
+    font-family: stencil std, sans-serif;
+    color: #000000;
+    z-index: 5;
+}
+
+.h2blanc {
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.nom-menu {
+    font-size: 4vw;
+    color: #000000;
+    opacity: 10%;
+}
+
+h3 {
+    font-family: stencil std, sans-serif;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 10%;
+    font-size: ;
+    color:#000000;
+
+}
+
+.h3blanc{
+    font-family: stencil std, sans-serif;
+    font-size: 35px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 50%;
+    font-size: ;
+    color:#FFFFFF;
+    z-index: 10;
+}
+
+.ingredient{
+    font-family:eras ITC light,sans-serif;
+    writing-mode: horizontal-tb;
+    color: #FFFFFF;
+    opacity: 100;
+}
+p {
+    font-size: 25px;
+}
+
+.p1 {
+    font-size: 25px;
+    font-family: eras ITC, sans-serif;
+}
+
+.navbar {
+    background-color: #c41919;
+    background: transparent;}
+
+#nav-icon{
+    
+}
+
+
+
+.button.navbar-toggler {
+    background-color: #000000;
+}
+
+
+@media screen and (max-width:767px) {
+    .terrasse {
+        border-radius: 50%;
+        min-height: 10px !important;
+        min-width: 10px !important;
+    }
+        .row.reverse.w-100
+        {
+            display:flex;
+            flex-direction: column-reverse;
+        }
+}
+
+.adresse {
+    font-size: 25px;
+}
+
+.texte {
+    font-family: stencil std, sans-serif;
+    z-index: 10;
+    font-size: 8vw;
+    color: #FBF6F6;
+    opacity: 50%;
+}
+
+
+
+.logotext {
+    z-index: 10;
+
+}
+
+.texte1 {
+    font-family: stencil std, sans-serif;
+    font-size: 4vw;
+    z-index: 10;
+    color: #FBF6F6;
+    opacity: 50%;
+}
+
+@media screen and (max-width:500px) {
+    .texte1{
+        display: none;
+    }
+}
+
+
+.tburger {
+    font-family: stencil std, sans-serif;
+    color: #FFFFFF;
+    z-index: 10;
+}
+.bar1{
+    font-family: stencil std, sans-serif;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 10%; 
+    z-index: 15;
+    font-size: 40px;
+}
+
+.p2 {
+    font-size: 25px;
+    font-family: eras ITC, sans-serif;
+    color: #FFFFFF;
+}
