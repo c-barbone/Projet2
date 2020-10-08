@@ -1,13 +1,21 @@
+@font-face {
+    font-family: 'Eras* Light' 'Eras* Demi';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras* Light'), url('font/eras-light-5871822a2e706.woff') format('woff');
+    src: local('Eras* Demi'), url('eras-demi-587182767b329.woff') format('woff');
+    }
+
 body {
     color: #000000;
-    font-family: eras ITC light, stencil std, sans-serif;
+    font-family: 'Eras* Light', 'stencil std';
     background-color: #D9D9D9;
     overflow-x: hidden;
 }
 
 
 h1 {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     color: #FFFFFF;
     font-size: 3vw;
 }
@@ -18,7 +26,7 @@ h1 {
     }
 }
 h2 {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     color: #000000;
     z-index: 5;
 }
@@ -28,6 +36,9 @@ h2 {
     opacity: 50%;
 }
 
+.titref{
+    color: #FFFFFF;
+}
 h3 {
     font-size: 35px;
 }
@@ -39,7 +50,7 @@ h3 {
 }
 
 h3 {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     writing-mode: vertical-rl;
     text-orientation: upright;
     opacity: 10%;
@@ -49,7 +60,7 @@ h3 {
 }
 
 .h3blanc{
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     font-size: 30px;
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -59,7 +70,7 @@ h3 {
 }
 
 .ingredient{
-    font-family:eras ITC light,sans-serif;
+    font-family:eras 'Eras* Light';
     writing-mode: horizontal-tb;
     color: #FFFFFF;
     opacity: 100;
@@ -70,12 +81,12 @@ p {
 
 .p1 {
     font-size: 25px;
-    font-family: eras ITC, sans-serif;
+    font-family:'Eras* Light';
 }
 
 .navbar {
     background-color: #c41919;
-    background: transparent;
+    /* background: transparent; */
 }
 
 #nav-icon{
@@ -107,7 +118,7 @@ p {
 }
 
 .texte {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     z-index: 10;
     font-size: 8vw;
     color: #FBF6F6;
@@ -122,7 +133,7 @@ p {
 }
 
 .texte1 {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     font-size: 4vw;
     z-index: 10;
     color: #FBF6F6;
@@ -137,18 +148,18 @@ p {
 
 
 .tburger {
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     color: #FFFFFF;
 }
 
 .tburger1{
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     color: #000000;
     font-size: 25px;
 }
 
 .bar1{
-    font-family: stencil std, sans-serif;
+    font-family: 'stencil std';
     writing-mode: vertical-rl;
     text-orientation: upright;
     opacity: 10%; 
@@ -158,7 +169,7 @@ p {
 
 .p2 {
     font-size: 25px;
-    font-family: eras ITC, sans-serif;
+    font-family: 'Eras* Demi';
     color: #FFFFFF;
 }
 
@@ -168,5 +179,13 @@ p {
 
 .form{
     background-image: url("bar0.jpg");
+}
+
+.button{
+    font-family:'Eras* Light';
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    background-color:#000000;
 }
 
