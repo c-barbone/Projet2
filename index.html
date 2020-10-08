@@ -28,7 +28,7 @@
 
   <section class="header" id="home">
 
-    <div class="container-fluid pl-0 pr-0">
+    <div class="container-fluid p-0">
       <nav class="navbar navbar-light fixed-top">
         <a class="navbar-brand" alt="logo" titre="logo">
           <img class="ml-5 mt-3 mb-3" src="logoblanc.png" alt="logo" title="logo" style="max-height:80px;">
@@ -54,7 +54,7 @@
               <a class="nav-link text-uppercase active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#à propos">à propos</a>
+              <a class="nav-link text-uppercase" href="#apropos">à propos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-uppercase" href="#burgers">Burgers</a>
@@ -63,9 +63,9 @@
               <a class="nav-link text-uppercase" href="#bar">bar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#petit déjeuner">petit déjeuner</a>
+              <a class="nav-link text-uppercase" href="#petitdejeuner">petit déjeuner</a>
             <li class="nav-item">
-              <a class="nav-link text-uppercase" href="#évènement">évènement</a>
+              <a class="nav-link text-uppercase" href="#evenement">évènement</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-uppercase" href="#contact">contact</a>
@@ -88,13 +88,13 @@
 
         </div>
       </nav>
-      <div id="carouselhome" class="carousel slide d-flex position-relative" data-ride="carousel">
+      <div id="carouselhome" class="carousel slide d-flex position-relative" data-ride="carousel" data-interval="3000">
 
         <div class="carousel-inner" style="max-height: 760px;">
           <p class="texte h-100 w-100 d-flex position-absolute align-items-center justify-content-center">
             burger-café & bar</p>
           <p class="texte h-100 w-100 d-flex position-absolute align-items-end justify-content-end pb-4 pr-4"><img
-              src="logoblanc.png" alt="logo" title="logo" style="max-width: 200px; max-height: 200px;"></p>
+              src="logoblanc.png" alt="logo" title="logo" style="max-width: 150px; max-height: 150px;"></p>
           <div class="carousel-item active">
             <img class="d-block w-100" src="burgerclassic.jpg" alt="First slide">
           </div>
@@ -112,30 +112,32 @@
   </section>
 
 
-  <section id="à propos">
-    <div class="container-fluid mt-5 pt-5 px-0">
-      <div class="row reverse w-100">
-        <div class=" col-12 col-sm-6 p-0 m-0">
-          <p class="texte1 h-100 w-100 d-flex position-absolute align-items-center justify-content-center">
+  <section id="apropos">
+    <div class="container-fluid p-0">
+      <div class="row reverse position-relative w-100 m-0">
+        <h3 class="w-100 h-100 d-flex justify-content-start align-items-start position-absolute mx-0 mt-5 mb-0">
+          burgers-café & bar</h3>
+        <div class=" col-12 col-xl-6 p-0 d-flex">
+          <p class="texte1 h-100 w-100 d-flex position-absolute align-items-center justify-content-center m-0">
             burger-café & bar</p>
-          <img class="w-100 p-0 terrasse responsive" src="terrasse.jpg" style="min-height:680px, max-width: 100%;">
+          <img class="w-100 p-0 terrasse img-fluid" src="terrasse.jpg" style="height:100vh; width:100%;">
         </div>
-        <div class="col-12 col-sm-6 position-relative">
-          <h3 class="h-100 w-100 position-absolute justify-content-end align-items-center mx-0 mt-5">burgers-café & bar
-          </h3>
+        <div class="col-12 col-xl-6 position-relative p-0">
+          
           <h2 class="mt-4 pt-3 w-100 d-flex justify-content-center position-absolute">à propos</h2>
-          <h2 class="h2blanc d-flex justify-content-center text-center ml-5 pt-5 mt-2">à propos</h2>
-          <p class="justify-content-center text-center mt-5 pt-4">Burgers-Café & Bar est un
+          <h2 class="h2blanc d-flex justify-content-center text-center ml-3 pt-5 mt-1">à propos</h2>
+          
+          <p class="p1 justify-content-center text-center mt-5 pt-5">Burgers-Café & Bar est un
             bar-restaurant récemment
             implanté à lons-le-saunier. Venez déguster un burger,
             boire un verre ou passé une soirée sympa dans une
             ambiance chaleureuse et cosy, en toute simplicité.</p>
-          <p class="p1 text-center justify-content-center mt-5 pt-4">Petit bonus : Nous vous proposons
+          <p class=" p2 text-center justify-content-center mt-5 pt-4">Petit bonus : Nous vous proposons
             deux </br>formules de petit déjeuner à emporter.</br>
-            <span class="ml-5">accès wifi</span> <img class="ml-1" src="check.png" style="max-height: 15px;"> <span
-              class="ml-5">accès handicapés</span> <img class="mr-5 ml-1" src="check.png" style="max-height: 15px;"></p>
-          <p class="text-center justify-content-center mt-5 pt-4">Mode de paiement: espèces, carte bancaire,</br>
-            chèque vacances, ticket restaurant.</p>
+            <span class="pl-5 text-center">accès wifi <img class="ml-1 img-fluid check" src="check.png" style="height: 15px;"> <span
+              class="ml-4">accès handicapés <img class="mr-5 ml-1 img-fluid check" src="check.png" style="height: 15px;"></p>
+          <p class="p1 text-center justify-content-center mt-5 pt-4">Mode de paiement: espèces, carte bancaire,</br>
+            chèque vacances, ticket restaurant.</p></span>
         </div>
       </div>
     </div>
@@ -143,28 +145,28 @@
 
   <section id="burgers">
 
-    <div class="container-fluid w-100 px-0 my-5 py-4">
-      <div class="row">
-        <div class="col-12 position-relative">
-          <div class="col-12 d-flex justify-content-center position-absolute">
+    <div class="container-fluid w-100">
+      <div class="row p-0">
+        <div class="col-12 p-0 position-relative">
+          <div class="col-12 p-0 d-flex justify-content-center position-absolute">
             <h2 class="mt-5">burgers</h2>
           </div>
-          <h2 class="h2blanc d-flex justify-content-center text-center ml-5 pt-5 mt-3 pb-3">burgers</h2>
+          <h2 class="h2blanc d-flex justify-content-center text-center ml-3 pt-3 mt-5 pb-3">burgers</h2>
           <div class="d-flex fondcarouselle align-items-center justify-content-center text-center"
             style="min-height:650px;">
 
             <a href="file:///C:/Users/acs/Desktop/Projet-2/carteburger.pdf"
               download="Acme Documentation (ver. 2.0.1).txt" target="_blank">
-              <p class=" tburger d-flex text-uppercase position-absolute" style="right:5%">menu</br>
+              <p class=" tburger d-flex text-uppercase position-absolute" style="right:3%">menu</br>
                 burgers</p>
             </a>
 
-            <div class="container">
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="container p-0">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
                   <div class="carousel-item active" style="height: 100%;">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">classique</h3>
+                      <span class="ingredient text-uppercase">classique</span>
                       <p class="p">(pain maison, sauce au choix, steak 150gr, cheddar, tomate,</br>
                         salade, oignon, cornichon)</p>
                     </div>
@@ -172,15 +174,15 @@
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">bacon</h3>
-                      <p class="mb-5 pb-5 p">(pain maison, sauce au choix, steak 150gr, cheddar,bacon,</br>
+                      <span class="ingredient text-uppercase">bacon</span>
+                      <p class="p">(pain maison, sauce au choix, steak 150gr, cheddar,bacon,</br>
                         tomate, salade, oignon)</p>
                     </div>
                     <img class="d-block w-100" src="burgerbacon.jpg" alt="2ième slide">
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">comtois</h3>
+                      <span class="ingredient text-uppercase">comtois</span>
                       <p class="p">(pain maison, sauce au choix, steak 150gr, double comté,</br>
                         tomate, salade, oignon)</p>
                     </div>
@@ -188,32 +190,32 @@
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">montagnard</h3>
-                      <p class="mb-5 pb-5 p">(pain maison, sauce au choix, steak 150gr, rösti,</br>
+                      <span class="ingredient text-uppercase">montagnard</span>
+                      <p class="p">(pain maison, sauce au choix, steak 150gr, rösti,</br>
                         reblochon, tomate, salade, oignon)</p>
                     </div>
                     <img class="d-block w-100" src="burgermontagnard.jpg" alt="4ième slide">
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">frenchy</h3>
-                      <p class="mb-5 pb-5 p">(pain maison, sauce au choix, steak 150gr, rösti,</br>
+                      <span class="ingredient text-uppercase">frenchy</span>
+                      <p class="p">(pain maison, sauce au choix, steak 150gr, rösti,</br>
                         saint marcellin, tomate, salade, oignon)</p>
                     </div>
                     <img class="d-block w-100" src="burgerfrenchy.jpg" alt="5ième slide">
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">maxi</h3>
-                      <p class="mb-5 pb-5 p">(pain maison, sauce au choix, 2 steak 150gr, double cheddar,</br>
+                      <span class="ingredient text-uppercase">maxi</span>
+                      <p class="p">(pain maison, sauce au choix, 2 steak 150gr, double cheddar,</br>
                         tomate, salade, oignon, cornichon)</p>
                     </div>
                     <img class="d-block w-100" src="burgermaxi.jpg" alt="6ième slide">
                   </div>
                   <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block">
-                      <h3 class="ingredient text-uppercase">chicken</h3>
-                      <p class="mb-5 pb-5 p">(pain maison, sauce au choix, tenders de poulet,</br>
+                      <span class="ingredient text-uppercase">chicken</span>
+                      <p class="p">(pain maison, sauce au choix, tenders de poulet,</br>
                         tomate, salade, oignon)</p>
                     </div>
                     <img class="d-block w-100" src="burgerpoulet.jpg" alt="7ième slide">
@@ -237,60 +239,59 @@
   </section>
 
   <section id="bar">
-    <div class="container-fluid my-5 py-5">
-      <div class="row w-100 reverse">
-        <div class=" col-12 p-0 m-0">
-          <h3 class="h3blanc w-100 h-100 d-flex position-absolute justify-content-center align-items-end mx-0">
+    <div class="container-fluid p-0">
+      <div class="row w-100 reverse m-0">
+        <h3 class="h3blancbar h-100 w-100 d-flex position-absolute justify-content-center align-items-end m-0">
             burgers-café & bar</h3>
-          <img class="w-100 p-0 position-relative img-fluid" src="bar.png" style="min-height:700px;">
+        <div class=" col-12 col-xl-6 p-0 d-flex">
+          
+          <img class="w-100 photob img-fluid p-0 m-0" src="bar.png" style="height:100vh; max-width:100%;">
         </div>
-        <div class="col-12 position-relative">
+        <div class="col-12 col-xl-6 p-0">
           <div class="w-100 d-flex justify-content-center position-absolute">
             <h2 class="mt-4 pt-3">bar</h2>
           </div>
-          <h2 class="h2blanc d-flex justify-content-center text-center ml-5 pt-5 mt-2">bar</h2>
-          <p class="justify-content-center text-center mt-5 pt-3 mx-5">Faites un break après votre journée et
+          <h2 class="h2blanc d-flex justify-content-center text-center ml-3 pt-5 mt-1">bar</h2>
+          <p class="p4 justify-content-center text-center mt-5 pt-5 mx-5">Faites un break après votre journée et
             venez profiter de nos boissons seules ou
             à plusieurs. Plusieurs fois par mois nous
             organisons des soirées diverses: karaoké,
             blind test, concerts, etc
           </p>
-          <p class="p2 text-center justify-content-center mx-5 mt-2">Au plaisir de vous accueillir bientôt
+          <p class="p3 text-center justify-content-center mx-5 mt-5 pt-4 ">Au plaisir de vous accueillir bientôt
             dans notre établissement.
-            <p class="text-center justify-content-center mt-5 text-uppercase mx-5">NOTRE BAR EST OUVERT DE 21H A 2H
+            <p class="p4 text-center justify-content-center text-uppercase mt-5 pt-4 mx-5">NOTRE BAR EST OUVERT DE 21H A 2H
               DU LUNDI AU DIMANCHE</p>
-            <a href="file:///C:/Users/acs/Desktop/Projet-2/carte_bar.pdf"
+              <a href="file:///C:/Users/acs/Desktop/Projet-2/carteburger.pdf"
               download="Acme Documentation (ver. 2.0.1).txt" target="_blank">
-              <span
-                class=" tburger1 d-flex text-uppercase position-absolute w-100 justify-content-center text-center mt-5">Carte</br>
+              <span class=" tburger1 d-flex text-uppercase w-100 justify-content-center text-center mt-5">Carte</br>
                 des boissons</span></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="petit déjeuner">
-    <div class="container-fluid px-0 my-5 py-5">
+  <section id="petitdejeuner">
+    <div class="container-fluid px-0">
       <div class="row reverse w-100 mx-0">
-        <div class="col-12 col-sm-6 position-relative">
+        <h3 class="h3blanc w-100 h-100 d-flex position-absolute justify-content-center align-items-start mx-0">
+          burgers-café & bar</h3>
+        <div class="col-12 col-xl-6 position-relative" style="height: 60vh;">
           <div class="w-100 d-flex justify-content-center position-absolute">
-            <h2 class="mt-4 pt-3">petit déjeuner</h2>
+            <h2 class="mt-4 pt-3 mr-4">petit déjeuner</h2>
           </div>
-          <h2 class="h2blanc d-flex justify-content-center text-center ml-5 pt-5 mt-2">petit déjeuner</h2>
-          <p class="w-100 h-100 d-flex position-absolute justify-content-center align-items-start mt-5 pr-4"> <img
+          <h2 class="h2blanc d-flex justify-content-center text-center pl-4 pt-5 mt-2">petit déjeuner</h2>
+          <p class="w-100 h-100 d-flex position-absolute justify-content-center align-items-center"> <img
               src="logob.png" style="min-height:350px; min-width: 350px"></p>
-          <p
-            class="d-flex w-100 h-100 justify-content-center align-items-start text-center position-relative mt-5 pt-5 pl-4">
+          <p class="d-flex w-100 h-100 justify-content-center align-items-center text-center position-relative">
             Boisson
             (thé, café, cappuccino, jus de fruits)</br></br>
             OU</br></br>
             Boisson + Viennoiserie</br>
             (croissant ou pain au chocolat)</p>
         </div>
-        <div class=" col-12 col-sm-6 p-0 m-0">
-          <h3 class="h3blanc w-100 h-100 d-flex position-absolute justify-content-center align-items-start mx-0">
-            burgers-café & bar</h3>
-          <img class="w-100 h-100 p-0 position-relative" src="coffee.jpg" style="min-height:600px;">
+        <div class=" col-12 col-xl-6 p-0 m-0">
+            <img class="imgcof w-100 img-fluid p-0 m-0" src="coffee.jpg" style="height:100vh; max-width:100%;">
         </div>
       </div>
     </div>
@@ -321,7 +322,7 @@
               samedi du mois</figcaption>
             <img src="orchestra.jpg" style="width:355px" alt="image" titre="image">
           </div>
-          <div class="figure">
+          <div class="figure fig1">
             <figcaption class="figure-caption w-100 d-flex justify-content-center text-center">Soirées quiz</br>
               tous les dimanches soir</figcaption>
             <img src="question.jpg" style="width:342px" alt="image" titre="image">
@@ -331,7 +332,7 @@
   </section>
 
   <section id="formulaire">
-    <div class="container-fluid form" style="min-height: 700px;">
+    <div class="container-fluid p-0 form" style="min-height: 700px;">
       <h2 class=" titref w-100 h-100 d-flex justify-content-center align-items-center position-relative">une question?
         une idée?</h2>
       <h3 class="w-100 h-100 d-flex justify-content-center align-items-start mx-0 position-absolute">

@@ -16,7 +16,6 @@ body {
     color: #000000;
     font-family: 'Eras* Light', 'stencil std';
     background-color: #D9D9D9;
-    /* overflow-x: hidden; */
 }
 
 
@@ -47,10 +46,6 @@ h2 {
     color: #FFFFFF;
 }
 
-h3 {
-    font-size: 35px;
-}
-
 .nom-menu {
     font-size: 4vw;
     color: #000000;
@@ -62,7 +57,7 @@ h3 {
     writing-mode: vertical-rl;
     text-orientation: upright;
     opacity: 10%;
-    font-size: ;
+    font-size: 42px !important;
     color: #000000;
 
 }
@@ -77,11 +72,20 @@ h3 {
     z-index: 10;
 }
 
+.h3blancbar{ 
+    font-family: 'stencil std';
+    font-size: 45px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 50%;
+    color: #FFFFFF;
+    z-index: 10;
+}
+
 .ingredient {
     font-family: eras 'Eras* Light';
-    writing-mode: horizontal-tb;
+    font-size: 50px;
     color: #FFFFFF;
-    opacity: 100;
 }
 
 p {
@@ -98,26 +102,27 @@ p {
     background: transparent; */
 }
 
-#nav-icon {}
 
-
-
-.button.navbar-toggler {
-    background-color: #000000;
-}
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width:1024px) {
     .terrasse {
-        border-radius: 50%;
-        min-height: 10px !important;
-        min-width: 10px !important;
+        height: 50vh !important;
+        width: auto !important;
     }
+        .row.reverse.w-100 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        h3{
+            font-size: 70px !important;
+            z-index: 10;
+        }
+        .imgcof{
+            height: 50vh !important;
+        }
+        .photob{
+            height: 50vh !important;
+        }
 
-    .row.reverse.w-100 {
-        display: flex;
-        flex-direction: column-reverse;
-    }
 }
 
 .adresse {
@@ -141,18 +146,17 @@ p {
 
 .texte1 {
     font-family: 'stencil std';
-    font-size: 4vw;
+    font-size: 60px;
     z-index: 10;
     color: #FBF6F6;
     opacity: 50%;
 }
 
-@media screen and (max-width:500px) {
-    .texte1 {
-        display: none;
-    }
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
 }
-
 
 .tburger {
     font-family: 'stencil std';
@@ -174,12 +178,15 @@ p {
     font-size: 40px;
 }
 
-.p2 {
+.p3 {
     font-size: 25px;
     font-family: 'eras_md_btmedium';
     color: #FFFFFF;
 }
 
+.p2{
+    font-family: 'eras_md_btmedium';
+}
 .fondcarouselle {
     background: url(hamburger.jpg);
 }
@@ -199,4 +206,123 @@ p {
 .figure-caption{
     color: #000000;
     font-size: 20px;
+}
+
+/* tablette */
+@media (max-width:767px){
+    body div{
+        overflow-x: hidden;
+    }
+
+    section#home {
+        height: 100vh;
+    }
+
+  #carouselhome{
+      height:100vh;
+  }
+
+  section#home .caroussel-item{
+      height:100vh;
+  }
+
+  section#home .caroussel-item .active{
+    height:100vh;
+    position:relative;
+}
+
+   section#home img.d-block.w-100{
+      height:100vh;
+      width:auto!important;
+      margin-left:50%;
+    
+      transform: translateX(-50%); 
+  }
+
+  .figure {
+    width: 100%;
+    overflow: hidden;
+}
+
+.figure img {
+    width: 100%!important;
+}
+.carousel-caption{
+           position: absolute !important;
+       }
+
+section#évènement div {
+    margin: 0!important;
+}
+
+#bar div {
+    margin: 0!important;
+}
+
+section#petitdejeuner{
+    margin: 0!important;
+}
+.fig1{
+    display: none;
+}
+.p{
+    font-size: 15px;
+}
+} 
+
+/* mobile */
+
+@media screen and (max-width:500px) {
+    h3{
+        font-size: 40px;
+        z-index: 10 !important;
+    }
+    .h3blanc{
+        font-size: 45px;
+    }
+    .texte1 {
+        display: none !important;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 15px;
+        margin-top: 0px !important;
+    }
+    .p3{
+        font-size: 15px !important;
+    }
+    .p4{
+        font-size: 15px !important;
+    }
+    .check{
+        height: 10px;
+    }
+    .terrasse {
+        border-radius: 50%;
+        height: 250px !important;
+        width: 250px !important;
+        margin: 0 auto;
+    }
+    .row.reverse.w-100 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .photob {
+        border-radius: 50%;
+        height: 250px !important;
+        width: 250px !important;
+        margin: 0 auto !important;
+    }
+    .row.reverse.w-100 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgcof{
+        height: 40vh !important;
+    }
+.tburger1 {
+    font-size: 15px !important;
+}
 }
