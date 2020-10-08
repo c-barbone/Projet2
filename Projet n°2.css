@@ -1,11 +1,17 @@
 @font-face {
-    font-family: 'Eras* Light' 'Eras* Demi';
+    font-family: 'Eras* Light';
     font-style: normal;
     font-weight: normal;
     src: local('Eras* Light'), url('font/eras-light-5871822a2e706.woff') format('woff');
-    src: local('Eras* Demi'), url('eras-demi-587182767b329.woff') format('woff');
-    }
+}
 
+@font-face {
+    font-family: 'eras_md_btmedium';
+    src: url('font/eras-md-bt-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
     color: #000000;
     font-family: 'Eras* Light', 'stencil std';
@@ -21,10 +27,11 @@ h1 {
 }
 
 @media screen and (max-width:500px) {
-    h1{
+    h1 {
         display: none;
     }
 }
+
 h2 {
     font-family: 'stencil std';
     color: #000000;
@@ -36,9 +43,10 @@ h2 {
     opacity: 50%;
 }
 
-.titref{
+.titref {
     color: #FFFFFF;
 }
+
 h3 {
     font-size: 35px;
 }
@@ -55,33 +63,34 @@ h3 {
     text-orientation: upright;
     opacity: 10%;
     font-size: ;
-    color:#000000;
+    color: #000000;
 
 }
 
-.h3blanc{
+.h3blanc {
     font-family: 'stencil std';
     font-size: 30px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     opacity: 50%;
-    color:#FFFFFF;
+    color: #FFFFFF;
     z-index: 10;
 }
 
-.ingredient{
-    font-family:eras 'Eras* Light';
+.ingredient {
+    font-family: eras 'Eras* Light';
     writing-mode: horizontal-tb;
     color: #FFFFFF;
     opacity: 100;
 }
+
 p {
     font-size: 25px;
 }
 
 .p1 {
     font-size: 25px;
-    font-family:'Eras* Light';
+    font-family: 'Eras* Light';
 }
 
 .navbar {
@@ -89,9 +98,7 @@ p {
     /* background: transparent; */
 }
 
-#nav-icon{
-    
-}
+#nav-icon {}
 
 
 
@@ -106,11 +113,11 @@ p {
         min-height: 10px !important;
         min-width: 10px !important;
     }
-        .row.reverse.w-100
-        {
-            display:flex;
-            flex-direction: column-reverse;
-        }
+
+    .row.reverse.w-100 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 .adresse {
@@ -141,7 +148,7 @@ p {
 }
 
 @media screen and (max-width:500px) {
-    .texte1{
+    .texte1 {
         display: none;
     }
 }
@@ -152,40 +159,44 @@ p {
     color: #FFFFFF;
 }
 
-.tburger1{
+.tburger1 {
     font-family: 'stencil std';
     color: #000000;
     font-size: 25px;
 }
 
-.bar1{
+.bar1 {
     font-family: 'stencil std';
     writing-mode: vertical-rl;
     text-orientation: upright;
-    opacity: 10%; 
+    opacity: 10%;
     z-index: 15;
     font-size: 40px;
 }
 
 .p2 {
     font-size: 25px;
-    font-family: 'Eras* Demi';
+    font-family: 'eras_md_btmedium';
     color: #FFFFFF;
 }
 
-.fondcarouselle{
+.fondcarouselle {
     background: url(hamburger.jpg);
 }
 
-.form{
+.form {
     background-image: url("bar0.jpg");
 }
 
-.button{
-    font-family:'Eras* Light';
+.button {
+    font-family: 'Eras* Light';
     color: #FFFFFF;
     cursor: pointer;
     border: none;
-    background-color:#000000;
+    background-color: #000000;
 }
 
+.figure-caption{
+    color: #000000;
+    font-size: 20px;
+}
