@@ -46,9 +46,11 @@
 
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse left" id="navbarSupportedContent">
-          <span class="navbar-text d-flex justify-content-center">
+          <center><p class="navbar-text text-center">
             <h2 class="nom-menu">burger-café & bar</h2>
-          </span>
+          </p></center>
+          <div class="container-fluid " id="lolcontainer">
+            <div class="row" id="lolcontent">     
           <ul class="navbar-nav col-6 d-flex justify-content-end">
             <li class="nav-item active">
               <a class="nav-link text-uppercase active" href="#home">Home</a>
@@ -71,16 +73,8 @@
               <a class="nav-link text-uppercase" href="#contact">contact</a>
             </li>
             </li>
-            <div class="col-1 d-flex justify-content-end pr-0">
-              <ul>
-                <li>
-                  <a href="#"><img class="logofooter" src="logofb.png"></a>
-                </li>
-                <li>
-                  <a href="#"><img class="logofooter" src="logoinsta.png"></a>
-                </li>
-              </ul>
-            </div>
+              <p><a href="#"><img class="logofooter" src="logofb.png"></a>
+                <a href="#"><img class="logofooter" src="logoinsta.png"></a></p>             
           </ul>
           <span class="navbar-text d-flex justify-content-around text-center col-6 adresse">
             2 Route De Montaigu</br>
@@ -93,7 +87,8 @@
             Burger de 11h à 14h</br>
             Bar de 21h à 2h
           </span>
-
+        </div>  
+        </div> 
         </div>
       </nav>
       <div id="carouselhome" class="carousel slide d-flex position-relative" data-ride="carousel" data-interval="3000">
@@ -284,20 +279,25 @@
     <div class="container-fluid px-0">
       <div class="row reverse mx-0">
 
-        <div class="vhpetitdej col-12 col-xl-6 position-relative p-0" style="height: 80vh;">
-          <div class="w-100 d-flex justify-content-center position-absolute">
-            <h2 class="mt-4 pt-3 mr-4">petit déjeuner</h2>
-          </div>
-          <h2 class="h2blanc d-flex justify-content-center text-center pl-4 pt-5 mt-2">petit déjeuner</h2>
-          <p class=" h-100 d-flex position-absolute justify-content-center align-items-center"> <img src="logob.png"
-              style="min-height:400px; min-width: 400px"></p>
-          <p class="d-flex w-100 h-100 justify-content-center align-items-center text-center position-relative">
+        <div class="vhpetitdej col-12 col-xl-6 p-0" style="height: 80vh;">
+          
+            <h2 class=" h2noir mt-4 pt-3 mr-4 text-center">petit déjeuner</h2>
+          
+          <h2 class="h2blanc d-flex justify-content-center text-center pl-4 pt-5 mt-2 position-absolute">petit déjeuner</h2>
+
+           <img class=" petitdej img-fluid" src="logob.png" style="min-height:400px; min-width: 400px;">
+
+
+          <p class="textepetitdej position-absolute">
             Boisson
             (thé, café, cappuccino, jus de fruits)</br></br>
             OU</br></br>
             Boisson + Viennoiserie</br>
             (croissant ou pain au chocolat)</p>
+          
         </div>
+
+
         <div class=" col-12 col-xl-6 p-0 m-0">
           <h3 class="h3blancdej w-100 d-flex position-absolute justify-content-center align-items-start m-0">
             burgers-café & bar</h3>
@@ -342,22 +342,19 @@
   </section>
 
   <section id="contact">
-    <div class="container-fluid d-flex p-0 form position-relative" style="min-height: 780px;">
-      <h3 class=" h3blanccontact1 w-100 h-100 d-flex justify-content-center align-items-start mx-0 position-absolute">
-        burgers-café & bar</h3>
+    <div id="contact2" class="container-fluid d-flex p-0 form position-relative" style="min-height: 780px;">
+      <!-- <h3 class=" h3blanccontact1 w-100 h-100 d-flex justify-content-center align-items-start mx-0 position-absolute">
+        burgers-café & bar</h3> -->
       <h2 class=" titref w-100 h-100 d-flex justify-content-center  pt-5">une question?
         une idée?</h2>
       <form>
         <div class="form-group d-flex justify-content-center align-items-center" style="width: 50vw;">
-          <label for="exampleFormControlInput"></label>
           <input type="email" class="form-control" id="exampleFormControlInput" placeholder="Email">
         </div>
         <div class="form-group" style="width: 50vw;">
-          <label for="exampleFormControlTextarea"></label>
           <input type="email" class="form-control" id="exampleFormControlTextarea" placeholder="Nom">
         </div>
         <div class="form-group" style="width: 50vw;">
-          <label for="exampleFormControlTextarea1"></label>
           <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Commentaire" rows="3"></textarea>
         </div>
 
