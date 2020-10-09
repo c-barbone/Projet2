@@ -72,6 +72,22 @@ h3 {
     z-index: 10;
 }
 
+.h3blanccontact{
+    font-family: 'stencil std';
+    font-size: 30px !important;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 50%;
+    color: #FFFFFF;
+}
+.h3blanccontact1{
+    font-family: 'stencil std';
+    font-size: 30px !important;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    opacity: 50%;
+    color: #FFFFFF;
+}
 .h3blancbar{ 
     font-family: 'stencil std';
     font-size: 45px;
@@ -109,7 +125,7 @@ h3 {
 
 .navbar {
     background-color: #c41919;
-    background: transparent;
+    /* background: transparent; */
 }
 
 
@@ -135,14 +151,21 @@ h3 {
         .h3blancbar{
             font-size: 36px !important;
         }
-        ..h3blancdej{
-            font-size: 36px;
+        .h3blancdej{
+            font-size: 36px !important;
+        }
+        .h3blanccontact{
+            font-size: 50px !important;
         }
         .vhpetitdej{
             height: 30vh !important;
         }
         .fig1{
             display: none;
+        }
+        .tburger {
+            float: inline-end;
+            font-size: 25px;
         }
 }
 
@@ -289,11 +312,14 @@ h3{
 .h3blanc{
     font-size: 56px !important;
 }
+.h3blanccontact1{
+    font-size: 30px !important;
+}
 .h3blancbar{
     display: none !important;
 }
 .h3blancdej{
-    font-size: 18px !important;
+    font-size: 28px !important;
 }
 .logopd{
     height: 20vw !important;
@@ -359,7 +385,28 @@ h3{
     font-size: 35px !important;
     
 }
+.h3blancdej{
+    font-size: 18px !important;
+}
 .vhpetitdej{
     height: 40vh !important;
+}
+}
+.footer a{
+    color: #000000;
+}
+
+.footer ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.logofooter{
+    width: 30px;
+}
+
+@media screen and (max-width:500px) {
+.logofooter{
+    width: 10px;
 }
 }
