@@ -34,7 +34,7 @@ h1 {
 h2 {
     font-family: 'stencil std';
     color: #000000;
-    z-index: 5;
+    z-index: 10;
 }
 
 .h2blanc {
@@ -162,10 +162,6 @@ h3 {
         }
         .fig1{
             display: none;
-        }
-        .tburger {
-            float: inline-end;
-            font-size: 25px;
         }
 }
 
