@@ -25,6 +25,40 @@ h1 {
     font-size: 3vw;
 }
 
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+    background: none;
+}
+
+a.nav-link.active
+{
+    color: #FFFFFF !important;
+}
+
+a.nav-link:hover
+{
+    color:#FFFFFF !important;
+}
+
+.navbar.navbar-dark:hover{
+    background-color: #D9D9D9;
+}
+
+a.nav-link{
+    color: #000000 !important;
+}
+
+.navbar-text{
+    color: #000000 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 @media screen and (max-width:500px) {
     h1 {
         display: none;
@@ -115,7 +149,7 @@ h3 {
 
 .ingredient1 {
     font-family:'Eras* Light';
-    font-size: 20px;
+    font-size: 25px;
     color: #FFFFFF;
 }
 .p1 {
@@ -125,9 +159,14 @@ h3 {
 
 .navbar {
     background-color: #d9d9d9;
-    /* background: transparent; */
+    background: transparent;
 }
 
+.petitdej{
+    z-index: -1;
+    width: 350px;
+    height: 350px;
+}
 
 @media screen and (max-width:1024px) {
     .terrasse {
@@ -160,8 +199,19 @@ h3 {
         .vhpetitdej{
             height: 30vh !important;
         }
-        .fig1{
-            display: none;
+        
+        .petitdej{
+            width: 300px;
+            height: 300px;
+        }
+        .textepetitdej {
+            text-align: center;
+            top: 50%;
+            font-size: 1.5rem;
+            margin-top: 80px !important;
+        }
+        .container.burger{
+            width: 700px;
         }
 }
 
@@ -208,6 +258,7 @@ h3 {
     font-family: 'stencil std';
     color: #000000;
     font-size: 25px;
+    list-style: none;
 }
 
 .bar1 {
@@ -227,6 +278,7 @@ h3 {
 
 .p2{
     font-family: 'eras_md_btmedium';
+    font-size: 30px;
 }
 .fondcarouselle {
     background: url(hamburger.jpg);
@@ -323,6 +375,18 @@ h3{
 .vhpetitdej{
     height: 50vh !important;
 }
+.petitdej{
+    width: 200px;
+    height: 200px;
+}
+.fig1{
+    display: none;
+}
+.tburger{
+    font-size: 20px;
+    margin-right: 40%;
+    margin-top: 250px ;
+}
 } 
 
 /* mobile */
@@ -339,9 +403,6 @@ h3{
         margin-top: 0px !important;
     }
     .p3{
-        font-size: 15px !important;
-    }
-    .p4{
         font-size: 15px !important;
     }
     .check{
@@ -371,7 +432,18 @@ h3{
         height: 40vh !important;
     }
 .tburger1 {
-    font-size: 15px !important;
+    font-size: 20px;
+}
+.tburger{
+    font-size: 20px;
+    margin-right: 31%;
+    margin-top: 200px ;
+}
+.ingredient1{
+    font-size: 15px;
+}
+.ingredient{
+    font-size: 20px;
 }
 h3{
     font-size: 35px !important;
@@ -388,8 +460,11 @@ h3{
     height: 40vh !important;
 }
 }
+
+
 .footer a{
     color: #000000;
+    font-size: 25px;
 }
 
 .footer ul li {
@@ -477,7 +552,6 @@ textarea {
 ::placeholder {
     color: white !important;
 }
-
 @media screen and (max-width:500px) {
     .logofooter{
         width: 10px;
@@ -490,6 +564,7 @@ textarea {
     }
     span.navbar-text.d-flex.justify-content-around.text-center.col-6.adresse {
         font-size: small;
+
     }
     .vhpetitdej {
         min-height: 100vh !important;
