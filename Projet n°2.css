@@ -281,11 +281,11 @@ h3 {
     font-size: 30px;
 }
 .fondcarouselle {
-    background: url(hamburger.jpg);
+    background: url(images/hamburger.jpg);
 }
 
 .form {
-    background-image: url("bar0.jpg");
+    background-image: url("images/bar0.jpg");
 }
 
 .button {
